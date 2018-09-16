@@ -1,9 +1,11 @@
 # JavaScript_All
 자바스크립트의 기초부터 심화까지 모든 과정을 공부해보고 재 검토하기 위해 만든 레포입니다.
 
+!제가 주관적으로 나누고 공부했습니다. 단계가 꼭 이렇지 않습니다.!
+
 ## 기초
 ---
-  - 자바스크립트란?
+  - [자바스크립트란?]('https://github.com/junu126/JavaScript_All/tree/master/Base-Class/blob/master/What-Is-JavaScript.md')
   - 자바스크립트의 작동 원리.
   - 자바스크립트로 할 수 있는 것들.
   - 기초라고 생각되는 문법들
