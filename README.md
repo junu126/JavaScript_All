@@ -3,9 +3,11 @@
 
 !제가 주관적으로 나누고 공부했습니다. 단계가 꼭 이렇지 않습니다.!
 
+![자바스크립트](JAVASCRIPT-IMG.png)
+
 ## 기초
 ---
-  - [자바스크립트란?]('https://github.com/junu126/JavaScript_All/tree/master/Base-Class/blob/master/What-Is-JavaScript.md')
+  - [자바스크립트란?](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/What-Is-JavaScript.md)
   - 자바스크립트의 작동 원리.
   - 자바스크립트로 할 수 있는 것들.
   - 기초라고 생각되는 문법들
