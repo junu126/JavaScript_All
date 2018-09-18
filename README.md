@@ -8,7 +8,7 @@
 ## 기초
 ---
   - [자바스크립트란?](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/What-Is-JavaScript.md)
-  - 자바스크립트의 작동 원리.
+  - [자바스크립트의 작동 원리.](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/What-Can-Do-JavaScript.md)
   - 자바스크립트로 할 수 있는 것들.
   - 기초라고 생각되는 문법들
     * Semicolons - 세미콜론
