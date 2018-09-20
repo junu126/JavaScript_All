@@ -4,7 +4,7 @@
 먼저 기초문법을 나열해 보았습니다.
 
   * [Semicolons](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/1_Semicolons.md) - 세미콜론
-  * Types - 자료형
+  * [Types](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/2_Types.md) - 자료형
   * References - 참조
   * Object - 객체
   * Constructor and Class - 생성자 및 클래스
