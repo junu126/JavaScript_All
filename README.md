@@ -10,7 +10,7 @@
   - [자바스크립트란?](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/What-Is-JavaScript.md)
   - [자바스크립트의 작동 원리.](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/How-Does-JavaScript-Work.md)
   - [자바스크립트로 할 수 있는 것들.](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/What-Can-Do-JavaScript.md)
-  - 기초라고 생각되는 문법들
+  - [기초라고 생각되는 문법들]()
     * Semicolons - 세미콜론
     * Types - 자료형
     * References - 참조
@@ -55,3 +55,7 @@
 
   +2018년 9월 20일
   + 자바스크립트의 작동 원리. 작성완료.
+  + Grammar레포 생성.
+  + 메인 문법설명 파일 작성완료.
+  + 1_Semicolons 작성완료.
+  + 2_Types 작성완료.
