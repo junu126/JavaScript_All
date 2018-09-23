@@ -8,15 +8,15 @@
   * [References](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/3_References.md) - 참조
   * [Object](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/4_Object.md) - 객체
   * [Constructor and Class](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/5_Class.md) - 생성자 및 클래스
-  * Arrays - 배열
-  * String - 문자열
+  * [Arrays](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/6_Arrays.md) - 배열
+  * [String](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/7_String.md) - 문자열
   * Control Statement - 제어문
   * Loop Statement - 반복문
   * Function - 함수
   * Properties - 속성
   * Variables - 변수
   * Scope - 스코프
-  * Destructuring - 비 구조화f
+  * Destructuring - 비 구조화
   * Modules - 모듈
   * Iterators and Generators - 이터레이터 및 제네레이터
   * Hoisting - 호이스팅
