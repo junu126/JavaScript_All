@@ -12,7 +12,7 @@
   * [String](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/7_String.md) - 문자열
   * [Control Statement](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/8_Control-Statement.md) - 제어문
   * [Loop Statement](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/9_Loop-Statement.md) - 반복문
-  * Function - 함수
+  * [Function](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/10_Function.md) - 함수
   * Properties - 속성
   * Variables - 변수
   * Scope - 스코프
