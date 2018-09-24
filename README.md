@@ -74,3 +74,4 @@
   +2018년 9월 24일
   + 8_Control Statement 작성완료.
   + 9_Loop Statement 작성완료.
+  + 10_Function 작성완료.
