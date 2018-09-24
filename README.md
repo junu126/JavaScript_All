@@ -70,3 +70,7 @@
   +2018년 9월 23일
   + 6_Arrays 작성완료.
   + 7_String 작성완료.
+
+  +2018년 9월 24일
+  + 8_Control Statement 작성완료.
+  + 9_Loop Statement 작성완료.
