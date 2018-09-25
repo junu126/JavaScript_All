@@ -21,9 +21,6 @@
     * Control Statement - 제어문
     * Loop Statement - 반복문
     * Function - 함수
-    * Properties - 속성
-    * Variables - 변수
-    * Scope - 스코프
     * Destructuring - 비 구조화
     * Modules - 모듈
     * Iterators and Generators - 이터레이터 및 제네레이터
@@ -75,3 +72,7 @@
   + 8_Control Statement 작성완료.
   + 9_Loop Statement 작성완료.
   + 10_Function 작성완료.
+
+  +2018년 9월 25일
+  + 11_Destructuring 작성완료.
+  + 12_Module 작성완료.
