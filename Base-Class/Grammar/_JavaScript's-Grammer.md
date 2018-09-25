@@ -13,11 +13,8 @@
   * [Control Statement](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/8_Control-Statement.md) - 제어문
   * [Loop Statement](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/9_Loop-Statement.md) - 반복문
   * [Function](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/10_Function.md) - 함수
-  * Properties - 속성
-  * Variables - 변수
-  * Scope - 스코프
-  * Destructuring - 비 구조화
-  * Modules - 모듈
+  * [Destructuring](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/11_Destructuring.md) - 비 구조화
+  * [Modules](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/12_Modules.md) - 모듈
   * Iterators and Generators - 이터레이터 및 제네레이터
   * Hoisting - 호이스팅
   * Compasion Operators - 비교 연산자
