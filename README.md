@@ -23,7 +23,6 @@
     * Function - 함수
     * Destructuring - 비 구조화
     * Modules - 모듈
-    * Iterators and Generators - 이터레이터 및 제네레이터
     * Hoisting - 호이스팅
     * Compasion Operators - 비교 연산자
     * Try Catch - 예외처리
@@ -76,3 +75,6 @@
   +2018년 9월 25일
   + 11_Destructuring 작성완료.
   + 12_Module 작성완료.
+  
+  +2018년 9월 26일
+  + 13_Hoisting 작성완료.
