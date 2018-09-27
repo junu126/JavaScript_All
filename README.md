@@ -26,10 +26,11 @@
     * Hoisting - 호이스팅
     * Compasion Operators - 비교 연산자
     * Try Catch - 예외처리
-  - 문법들의 스타일 가이드.
+  - [문법들의 스타일 가이드.](https://github.com/junu126/JavaScript_All/blob/master/Grammer-Style-Guide.md)
 
 ## 심화
 ---
+  - [ECMAscript(ES6)문법](https://github.com/junu126/JavaScript_All/blob/master/ECMAScript-Grammar.md)
   - 자바스크립트에서의 this
   - 스코프(블럭) & 클로저
   - 프로미스
@@ -83,3 +84,5 @@
   + 14_Compasion Operators 작성완료.
   + 15_Try Catch 작성완료.
   + 기초 문법 작성완료.
+  + 스타일 가이드 작성시작.
+  + 심화 - ES6문법 업로드완료.
