@@ -30,7 +30,7 @@
 
 ## 심화
 ---
-  - [ECMAscript(ES6)문법](https://github.com/junu126/JavaScript_All/blob/master/ECMAScript-Grammar.md)
+  - [ECMAscript(ES6)문법](https://github.com/junu126/JavaScript_All/blob/master/Hard-Class/ECMAScript-Grammar.md)
   - 자바스크립트에서의 this
   - 스코프(블럭) & 클로저
   - 프로미스
