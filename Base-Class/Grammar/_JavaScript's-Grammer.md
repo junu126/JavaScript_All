@@ -16,5 +16,5 @@
   * [Destructuring](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/11_Destructuring.md) - 비 구조화
   * [Modules](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/12_Modules.md) - 모듈
   * [Hoisting](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/13_Hoisting.md) - 호이스팅
-  * Compasion Operators - 비교 연산자
-  * Try Catch - 예외처리
+  * [Compasion Operators](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/14_Compasion-Operators.md) - 비교 연산자
+  * [Try Catch](https://github.com/junu126/JavaScript_All/blob/master/Base-Class/Grammar/15_Try-Catch.md) - 예외처리
