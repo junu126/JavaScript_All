@@ -78,3 +78,8 @@
   
   +2018년 9월 26일
   + 13_Hoisting 작성완료.
+
+  +2108년 9월 27일
+  + 14_Compasion Operators 작성완료.
+  + 15_Try Catch 작성완료.
+  + 기초 문법 작성완료.
