@@ -26,7 +26,8 @@
     * Hoisting - 호이스팅
     * Compasion Operators - 비교 연산자
     * Try Catch - 예외처리
-  - [문법들의 스타일 가이드.](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Grammer-Style-Guide.md)
+  - [스타일 가이드라인 이란?](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Grammer-Style-Guide.md)
+  - [문법들의 스타일 가이드.](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/WHY-StyleGuide.md)
 
 ## 심화
 ---
