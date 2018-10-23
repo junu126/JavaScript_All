@@ -27,6 +27,7 @@
     * Compasion Operators - 비교 연산자
     * Try Catch - 예외처리
   - [스타일 가이드라인 이란?](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Grammer-Style-Guide.md)
+  - [기본 포맷](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Basic-Format.md)
   - [문법들의 스타일 가이드.](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/WHY-StyleGuide.md)
 
 ## 심화
@@ -97,3 +98,4 @@
 
   +2018년 10월 23일
   + 스타일 가이드라인 - 기본 포멧 추가
+  + 기본 포맷 LINK 등록
