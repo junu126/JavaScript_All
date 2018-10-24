@@ -40,3 +40,12 @@
  JSHint는 JSLink에서 파생되었습니다. `'안톤 코발료프'`가 관리하고 있으며, JSHint의 목적은 사용자 취향에 맞게 변경할 수 있는 자바스크립트 코드 품질과 스타일 가이드라인에 대한 툴을 제공하는 것입니다. 문법 에러를 제외하고는 JSHint에서는 거의 모든 경고를 끌 수 있으며 코드 작성 시 볼 모드 메시지를 원하는 대로 변경할 수도 있습니다. 코발료프는 많은 사람들이 GITHUB의 소스 코드 저장소를 통해 JSHint에 참여하고 기여하길 권장하고 있습니다.
 
  코드스타일 가이드라인의 툴을 선택하는 것은 자신의 마음입니다. 여러 툴들을 비교해보고 원하시는 툴은 사용하세요.
+
+---
+
+ ## 스타일 가이드 라인
+>`니콜라스 자카스`님의 책을 읽고 나열해본 문서입니다.
+
+- [기본 포맷](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Style-Guide-Line/01_Basic-Format.md)
+- [주석](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Style-Guide-Line/02_Remark.md)
+<!-- 더 추가할 사항 -->
