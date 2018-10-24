@@ -188,3 +188,127 @@ const longString = 'Here\'s the story, of a man \
 const longString = 'Here\'s the story, of a man' +
                    'named Brady.';
 ```
+
+### **1.6.2 숫자**
+자바스크립트에서 숫자는 정수, 실수에 상관없이 모든 타입이 숫자 타입에 저장됩니다. 다양한 숫자 형식을 표현하기 위해 다양한 숫자 선언 방법을 제공합니다. 긎 그 중 몇가지 문제가 될 수 있는 포맷이 있습니다.
+```javascript
+// 정수
+let count = 10;
+
+// 십진수
+let price = 10.0;
+let price = 10.00;
+
+// 십진수 선언의 나쁜 예 : 소수점이 뒤에 있음
+let price = 10.;
+
+// 십진수 선언의 나쁜 예 : 소수점이 앞에 있음
+let price = .1;
+
+// 나쁜 예 : 8진수는 사용하지 말 것
+let num = 010;
+
+// 16진수
+let num = 0xA2;
+
+// 지수 표기 
+let num = 1e23;
+```
+`10.`과 같이 소수점을 마지막에 찍은 경우와 소수점을 맨 앞에 찍은 .1에는 모두 공통된 문제가 있습니다. 숫자 앞이나 뒤에 소수점이 있으면, 소수점을 인지하기 어려워 코드를 수정하다 빠뜨려도 알기 어렵습니다. 또한 다른 개발자가 봤을 때 오타로 생각할 수도 있습니다. 항상 숫자를 소수점 앞이나 뒤에 추가하면 이런 혼동을 방지할 수 있습니다. 10.과 .1 같은 두 가지 포맷 모두 여러 스타일 가이드에서 금지하고 있습니다.
+
+8진수 포맷 사용에도 문제가 있습니다. 010값은 10을 의미하지 않고 8진수의 8을 의미합니다. 많은 개발자가 익숙하지도 않고, 쓰는 경우고도 거의 없기 때문에 8진수 리터럴을 허용하지 않는 경우가 많습니다.
+
+### **1.6.3 null**
+보통 null에 대해 잘못 알고 있거나 undefined와 많이 혼동하는데 null 값은 다음과 같이 한정된 곳에서만 사용해야 합니다.
+- **나중에 값을 할당할 변수를 초기화할 때**
+- **선언한 변수에 값이 할당되었는지 비교할 때**
+- **인자 값으로 객체(Objec)를 넘기는 함수를 호출할 때**
+- **함수를 호출한 곳에서 반환값으로 객체(Objec)를 기대할 때**  
+
+다음은 null을 사용하면 안 되는 경우입니다.
+- **함수의 인자 값을 확인하기 위해 null로 비교해서는 안된다.**
+- **초기화되지 않은 변수를 null로 비교해서는 안된다.**
+
+예제를 살펴보겠습니다.
+```javascript
+// 좋은 예
+let person = null;
+
+// 좋은 예
+function getPerson() {
+  if (condition) {
+    return new Person('Nicholas');
+  } else {
+    return null;
+  }
+}
+
+// 좋은 예
+let person = getPerson();
+if (person !== null) {
+  doSomething();
+}
+
+// 나쁜 예 : 인자값이 들어왔는지 null로 테스트하고 있음.
+let person;
+if (person !== null) {
+  doSomething();
+}
+
+// 나쁜 예 : 인자값이 들어왔는지 null로 테스트하고 있음
+function doSomething(arg1, arg2, arg3, arg4) {
+  if (arg4 != null) {
+    doSomethingElse();
+  }
+}
+```
+null은 Object를 대신한다고 생각하는 것이 가장 좋다고 말합니다. 주요 스타일 가이드에서 이 규칙이 다뤄지지는 않지만, 전체적인 유지보수성을 높이기 위해서는 중요합니다.
+
+### **1.6.4 undefined**
+대부분 undefined와 null을 자주 혼동합니다. 이 둘을 잘 구분하지 못하는 이유는 null == undefined가 true이기 때문입니다. 그러나 undefined와 null의 사용법은 많이 다릅니다. 변수가 초기화 되지 않았을때 변수는 초기값을 undefined로 받습니다. 즉 변수가 실제 값으로 초기화 되기를 기다린다는 의미입니다.
+```javascript
+// 나쁜 예
+let person;
+console.log(person === undefined);  // true
+```
+이 코드는 정상적으로 동작하지만, 코드에 undefined를 사용하는 것은 피해야 합니다. `undefined`에 typeof() 연산자를 실행시켜보면 'undefined'라는 문자열이 나타납니다. 실제로 초기화 되지 않은 변수에 typeof 연산자를 실행시켜보면 'undefined'문자열을 확인할 수 있습니다.
+```javascript
+// 좋은 예
+let person = null;
+console.log(person === null);  // true
+```
+변수를 null로 초기화하면 자중에 값을 저장할 것이라는 의도를 명확히 할 수 있습니다. 또 typeof연산자는 null에 대해 'Object'문자열을 변환하여 undefined와 구분할 수 있습니다.
+
+### **1.6.5 객체 리터럴**
+객체 리터럴은 Object의 인스턴스를 생성해 프로퍼티를 추가하는 방법에 비해, 간단히 추가할 프로퍼티를 정의하고 바로 객체를 생성할 수 있어 많이 사용됩니다.
+
+다음 예제와 같은 방식은 거의 사용하지 않습니다.
+```javascript
+// 권장하지 않음
+let book = new Object();
+book.title = 'Maintainable JavaScript';
+book.author = 'Nicholas C. Zakas';
+```
+객체 리터럴은 중괄호 안에 모든 프로퍼티를 정의할 수 있습니다. 여러 스타일 가이드에서 이 방법을 권장합니다.
+```javascript
+// 권장하는 방법
+let book = {
+  title : 'Maintainable JavaScript',
+  author : 'Nicholas C. Zakas',
+};
+```
+
+### **1.6.6 배열 리터럴**
+배열 리터럴은 객체 리터럴처럼 자바스크립트에서 배열을 간단히 선언하는 방법입니다. 다음 예제와 같이 Array 생성자를 사용하는 것은 권장하지 않습니다.
+```javascript
+// 권장하지 않음
+let colors = new Array('red', 'green','blue');
+var numbers = new Array(1,2,3,4);
+```
+Array 생성자를 사용하는 방법 대신 2개의 대괄호를 사용하여 배열의 초기값을 설정합니다.
+```javascript
+// 권장하는 방법
+let colors = [ 'red', 'green', 'blue' ];
+let numbers = [ 1, 2, 3, 4 ];
+```
+이 패턴은 자바스크립트에서 굉장히 많이 사용되고, 배열을 만들고 프로퍼티를 생성할 떄 괄호의 안쪽을 한칸 씩 띄웁니다. 또 콤마 뒤에 한칸을 뛰고 생성하는 것을 여러 스타일 가이드에서 권장합니다.
