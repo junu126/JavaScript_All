@@ -27,6 +27,7 @@
     * Compasion Operators - 비교 연산자
     * Try Catch - 예외처리
   - [스타일 가이드라인 이란?](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Style-Guide-Line/WHY-StyleGuide.md)
+  - [프로그래밍 프랙티스](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Programming-Practice/WHAT-Is-Programming-Practice.md)
   - [문법들의 스타일 가이드.](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Grammer-Style-Guide.md)
 
 ## 심화
@@ -107,3 +108,8 @@
 
   +2018년 10월 25일
   + 스타일 가이드라인 - '주석' 작성 완료
+
+  +2018년 10월 26일
+  + 프로그래밍 프렉티스 폴더 추가
+  + 프로그래밍 프렉티스 파일 추가
+  + 프로그래밍 프렉티스 - UI레이어 느슨하게 연결 추가
