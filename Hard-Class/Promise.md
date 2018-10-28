@@ -70,3 +70,87 @@ Promise 객체에는 정상적으로 비동기작업이 완료되었을 때 호�
 ![프로미스-캐치](_PROMISE-CATCH.png)
 
 앞서 _promise 에서 만든 객체는 성공 혹은 실패시 JSON객체가 아닌 String 객체가 아닌 String을 리턴하므로 JSON.parse에서 오류가 나게 됩니다. 따라서 .than으로 이동하지 않고, .catch로 이동하게 됩니다. catch는 이와 같이 promise가 연결되어 있을때 발생하는 오류를 처리해주는 역할을 합니다.
+
+아래의 예제는 HTML5Rocks 에서 보이고 있는 예제입니다.
+
+![프로미스-html5예제](_PROMISE-HTML5.png)
+
+위의 그림을 해석해보면 다음과 같이 나열할 수 있습니다.
+
+- 성공시  
+  1. asyncThing1성공 -> asyncThing2로
+  2. asyncThing2성공 -> asyncThing3로
+  3. asyncThing3성공 -> asyncThing4로
+  4. asyncThing4성공 -> All done!
+
+- 실패시
+  1. asyncThing1실패 -> asyncRecovery1로
+  2. asyncRecovery1실패 -> asyncRecovery2로
+  3. asyncRecovery2실패 -> Don't worry about it
+  4. 실패 -> 에러
+
+![프로미스-로직](_PROMISE-LOGIC.png)  
+**출처 : https://programmingsummaries.tistory.com/325**
+
+## 여러 프로미스가 완료될 때 실행하기 위해선? - Promise.all API
+
+여러개의 비동기 작업들이 존재하고 이들이 모두 완료되었을 때 작업을 진행하고 싶다면, Promise.all API를 활용하면 됩니다.
+
+아래의 코드를 살펴봅시다.
+
+![프로미스-올](_PROMISE-ALL.png)
+
+두 번째 Promise가 완료된 뒤, 시간이 흘러 첫 번째 Promise가 완료되면 최종적으로 전체 값을 보여줍니다.
+
+```javascript
+Promise.all([promise1, promise2])
+.then((values) => {
+  console.log('모두 완료됨', values);
+});
+```
+에서 values는 배열타입으로 promise의 resolve값을 의미합니다.
+
+## return 하지 않고 바로 new Promise로 생성하기
+
+항상 new Promise를 return 하는 형태로 사용하다가 바로 위의 Promise.all에 대한 설명할 때는 return이 아닌 바로 new Promise를 할당하는 형태로 사용했습니다. 어떤 차이가 있을까요?
+
+아래의 코드를 실행했을 때 어떻게 될지 예측해봅시다.
+
+![뉴-프로미스](_PROMISE-NEWPROMISE.png)
+
+위와 같이 실행할 경우 Promise 객체에 파라메터로 넘겨준 익명함수는 즉각 실행됩니다.  
+그렇기 때문에 _promise.then(alert) 등의 형태로 사용할 수 있습니다.
+
+이후 여러차례 _promise.then(alert)를 호출해도 이미 한번 수행 되었기 때문에 계속해서 resolve 혹은 reject가 수행될 것 입니다.
+
+테스트 삼아서 _promise.then(alert).catch(alert); 를 여러차례 수행해보세요.
+
+한번 'Stuff worked!' 가 나왔다면, 몇 번을 반복해서 수행해도 계속 'Stuff worked!'가 나오게 됩니다.
+
+Promise 객체를 new로 바꾼 다음 바로 생성할 경우, 아래와 같은 형태로도 사용가능 할 것 입니다.
+
+![프로미스-NEW로만](_PROMISE-NEW.png)
+
+위의 코드에서 Date()
+
+이번에는 앞서 Promise.all에 대한 예제를 Promise를 return 하는 형태로 바꿀경우 어떻게 변하는지 알아보겠습니다.
+
+![프로미스-RETURN으로](_PROMISE-NEWPRO.png)
+
+위와 같이 Promise 객체를 return 하는 형태로 바꿀 경우 위에서처럼
+
+![프로미스-NEW출력](_PROMISE-NEWPRO-DE.png)
+
+와 같은 형태로는 Promise.all API를 사용할 수 없습니다. Promise 객체가 아니기 때문에 오류 메시지를 만나게 됩니다.
+
+따라서 아래와 같이 실행해야 정상적으로 Promise.all API를 호출할 수 있습니다.
+
+![프로미스-NEW출력-정상](_PROMIS-NEWPRO-DE-CLEAR.png)
+
+## 결론
+
+지금까지 크롬에 포함된 Promise를 기반으로 비동기 로직을 처리하는 방법에 대해서 살펴보았습니다. 크롬에 내장된 Promise보다 강력한 기능을 담고 있는 Promise 라이브러리들이 많이 존재합니다. 그 중에서도 bluebird 라는 라이브러리가 기능과 성능면에서 주목받고 있습니다.
+
+http://bluebirdjs.com/docs/benchmarks.html
+
+Promise는 크롬에 기본 내장된 만큼 향후 V8엔진을 사용하는 노드에도 기본 지원될 확률이 높습니다. 비동기 로직이 불가피한 자바스크립트 코딩에서 효율적으로 비동기 로직을 처리할 수 있는 Promise를 손에 익혀둔다면 좀더 가독성있는 코드를 만드는데 도움이 될 수 있을 것 입니다.
