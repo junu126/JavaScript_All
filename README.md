@@ -35,7 +35,7 @@
   - [ECMAscript(ES6)문법](https://github.com/junu126/JavaScript_All/blob/master/Hard-Class/ECMAScript-Grammar.md)
   - 자바스크립트에서의 this
   - 스코프(블럭) & 클로저
-  - 프로미스
+  - [프로미스](https://github.com/junu126/JavaScript_All/blob/master/Hard-Class/Promise/Promise.md)
   - 함수형 프로그래밍
 
 ## Update
@@ -117,6 +117,8 @@
   +2018년 10월 27일
   + 프로미스 추가
   
-  +2018년 10월
-  28일
+  +2018년 10월 28일
   + 프로미스 완성
+
+  +2018년 10월 29일
+  + 프로미스 링크 업로드
