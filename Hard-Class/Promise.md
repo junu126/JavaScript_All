@@ -154,3 +154,8 @@ Promise 객체를 new로 바꾼 다음 바로 생성할 경우, 아래와 같은
 http://bluebirdjs.com/docs/benchmarks.html
 
 Promise는 크롬에 기본 내장된 만큼 향후 V8엔진을 사용하는 노드에도 기본 지원될 확률이 높습니다. 비동기 로직이 불가피한 자바스크립트 코딩에서 효율적으로 비동기 로직을 처리할 수 있는 Promise를 손에 익혀둔다면 좀더 가독성있는 코드를 만드는데 도움이 될 수 있을 것 입니다.
+
+## 참조
+저는 Aiden님의 블로그를 보면서 공부를 했습니다. 
+https://programmingsummaries.tistory.com/325  
+이 주소로 들어가시면 자세한 설명이 나와있습니다.
