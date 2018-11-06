@@ -18,4 +18,4 @@ JSHint와 JSLint는 스타일 검사 뿐만 아니라 프로그래밍 프래기�
 
 # 프로그래밍 프랙티스 라인
 >`니콜라스 자카스`님의 책을 읽고 나열해본 문서입니다.
-- [UI 레이어 느슨하게 연결하기]((https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Programming-Practice/UI-Loosely-Connecting-To-Layer)
+- [UI 레이어 느슨하게 연결하기](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Programming-Practice/UI-Loosely-Connecting-To-Layer.md)
