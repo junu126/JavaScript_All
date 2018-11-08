@@ -21,3 +21,5 @@ JSHint와 JSLint는 스타일 검사 뿐만 아니라 프로그래밍 프래기�
 - [UI 레이어 느슨하게 연결하기](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Programming-Practice/UI-Loosely-Connecting-To-Layer.md)
 
 - [NULL 비교 금지](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Programming-Practice/Do-Not-Compare-With-NULL.md)
+
+- [사용자 에러 던지기](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Programming-Practice/Throwing-Error-From-User.md)
