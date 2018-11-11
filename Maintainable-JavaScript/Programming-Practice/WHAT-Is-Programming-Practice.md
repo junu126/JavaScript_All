@@ -23,3 +23,5 @@ JSHint와 JSLint는 스타일 검사 뿐만 아니라 프로그래밍 프래기�
 - [NULL 비교 금지](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Programming-Practice/Do-Not-Compare-With-NULL.md)
 
 - [사용자 에러 던지기](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Programming-Practice/Throwing-Error-From-User.md)
+
+- [브라우저 탐지](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Programming-Practice/Browser-Detection.md)
