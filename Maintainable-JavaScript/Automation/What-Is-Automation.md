@@ -37,3 +37,5 @@
 ## 자동화 라인
 >`니콜라스 자카스`님의 책을 읽고 나열해본 문서입니다.
 - [파일과 디렉터리 구조](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Automation/File-And-Directory-Structure.md)
+
+- [최소화와 압축](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Automation/Minimize-And-Compression.md)
