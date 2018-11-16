@@ -41,3 +41,5 @@
 - [최소화와 압축](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Automation/Minimize-And-Compression.md)
 
 - [문서화](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Automation/Documentation.md)
+
+- [테스트 자동화](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Automation/Test-Automation.md)
