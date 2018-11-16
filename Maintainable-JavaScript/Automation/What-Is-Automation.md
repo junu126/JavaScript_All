@@ -39,3 +39,5 @@
 - [파일과 디렉터리 구조](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Automation/File-And-Directory-Structure.md)
 
 - [최소화와 압축](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Automation/Minimize-And-Compression.md)
+
+- [문서화](https://github.com/junu126/JavaScript_All/blob/master/Maintainable-JavaScript/Automation/Documentation.md)
