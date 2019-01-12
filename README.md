@@ -42,6 +42,7 @@
 - 스코프(블럭) & 클로저
 - [프로미스](https://github.com/junu126/JavaScript_All/blob/master/Hard-Class/Promise/Promise.md)
 - 함수형 프로그래밍
+- [React_SyntheticEvent](https://github.com/junu126/JavaScript_All/blob/master/DOM/HTML_DOM_Events/React_SyntheticEvent.md)
 
 ## Update
 
